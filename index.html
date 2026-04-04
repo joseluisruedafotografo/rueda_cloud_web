@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rueda.cloud | Transformación Digital e Inteligencia Artificial</title>
+    <meta name="description"
+        content="rueda.cloud - Consultora especializada en Inteligencia Artificial y Automatizaciones para transformar tu negocio.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">rueda.<span>cloud</span></a>
+        <ul class="nav-links">
+            <li><a href="#capacidades">Capacidades</a></li>
+            <li><a href="#insights">Insights</a></li>
+            <li><a href="#nosotros">Conócenos</a></li>
+        </ul>
+        <a href="#contacto" class="btn btn-outline" style="display: flex; align-items: center; gap: 8px;">
+            Te llamamos
+        </a>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero corporate-hero">
+            <div class="hero-bg">
+                <canvas id="neuronCanvas"></canvas>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content reveal-up">
+                <h1 class="hero-title">Tech for <br> <span class="accent-text">Impact</span></h1>
+                <p class="hero-subtitle">Optimizamos procesos, automatizamos tareas y multiplicamos resultados con la
+                    Inteligencia Artificial más avanzada del mercado corporativo.</p>
+                <div class="hero-cta">
+                    <a href="#capacidades" class="btn btn-primary">Descubre nuestras capacidades</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services (Aceleramos los procesos) -->
+        <section id="capacidades" class="services-corporate section-padded">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title-dark">Aceleramos los procesos con IA</h2>
+                    <p class="section-intro">Transformamos retos en resultados tangibles mediante soluciones
+                        tecnológicas propias y ecosistemas de innovación.</p>
+                </div>
+
+                <div class="capabilities-list">
+                    <!-- Capability 1 -->
+                    <div class="capability-row reveal-up">
+                        <div class="cap-image hover-zoom">
+                            <img src="./robotic_voice_agent.png"
+                                alt="Mujer robot con auriculares IA en oficinas corporativas">
+                        </div>
+                        <div class="cap-text">
+                            <h3>Agentes de Atención al Público con Voz</h3>
+                            <p>Implementamos asistentes corporativos hiperrealistas. Capaces de conversar
+                                telefónicamente con total naturalidad, resolver dudas, agendar citas, derivar casos
+                                complejos y atender a miles de clientes simultáneamente 24/7 sin colas de espera.</p>
+                            <a href="#contacto" class="text-link">Conocer más &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Capability 2 -->
+                    <div class="capability-row reverse reveal-up">
+                        <div class="cap-image hover-zoom">
+                            <img src="./movil_voice_agent%20copia.png" alt="Móvil con asistente WhatsApp">
+                        </div>
+                        <div class="cap-text">
+                            <h3>Agentes Inteligentes para WhatsApp</h3>
+                            <p>Revolucionamos el canal escrito preferido por los usuarios. Desde la cualificación
+                                experta de potenciales clientes (leads) hasta soporte técnico y transaccional automático
+                                directamente en su aplicación de mensajes habitual.</p>
+                            <a href="#contacto" class="text-link">Conocer más &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Capability 3 -->
+                    <div class="capability-row reveal-up">
+                        <div class="cap-image hover-zoom">
+                            <img src="./real_estate_portal.png"
+                                alt="Mockup de portal inmobiliario premium con chalets de lujo">
+                        </div>
+                        <div class="cap-text">
+                            <h3>Agentes IA para el Sector Inmobiliario</h3>
+                            <p>Automatizamos el embudo comercial completo para promotoras y agencias: perfilado
+                                financiero en tiempo real, catálogo interactivo de propiedades y agendado automatizado
+                                de visitas 24 horas al día.</p>
+                            <a href="#contacto" class="text-link">Conocer más &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights / Casos -->
+        <section id="insights" class="insights-section bg-light-grey section-padded">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2 class="section-title-dark">Insights y Casos de Éxito</h2>
+                    <p class="section-intro">Descubre la actualidad de nuestro impacto en la aceleración y
+                        transformación del negocio.</p>
+                </div>
+
+                <div class="insights-grid">
+                    <article class="insight-card reveal-up hover-zoom">
+                        <div class="insight-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=600"
+                                alt="Traducción de catálogos">
+                            <div class="category-tag">CASO REAL</div>
+                        </div>
+                        <div class="insight-content">
+                            <h3>Traducción con reglas dinámicas y GenAI</h3>
+                            <p>Descubre cómo un catálogo de 50.000 productos se traduce y optimiza automáticamente para
+                                diferentes marketplaces internacionales.</p>
+                        </div>
+                    </article>
+
+                    <article class="insight-card reveal-up hover-zoom">
+                        <div class="insight-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600"
+                                alt="Potencial de GenAI">
+                            <div class="category-tag">INNOVACIÓN</div>
+                        </div>
+                        <div class="insight-content">
+                            <h3>El potencial transformador de la IA Generativa</h3>
+                            <p>Creación de resúmenes ejecutivos, fichas técnicas y contenido adaptativo a partir de
+                                bases documentales para grandes distribuidores.</p>
+                        </div>
+                    </article>
+
+                    <article class="insight-card reveal-up hover-zoom">
+                        <div class="insight-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=600"
+                                alt="Llamada comercial automatizada telefónica">
+                            <div class="category-tag">CASO REAL</div>
+                        </div>
+                        <div class="insight-content">
+                            <h3>Incremento de ventas B2B con Voz</h3>
+                            <p>Multiplicación de la conversión telefónica gracias a un Agente IA que conecta con
+                                prospectos, evalúa interés y agenda de forma ininterrumpida.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Corporativo -->
+        <section id="contacto" class="cta-corporate section-padded">
+            <div class="container text-center reveal-up">
+                <h2 class="cta-title">Adelántate a la nueva era del dato</h2>
+                <p class="cta-subtitle">Solicita hoy una demostración con nuestro equipo de consultores Senior en IA.
+                </p>
+                <div class="call-form-container"
+                    style="display: flex; flex-direction: column; align-items: center; gap: 10px; margin-top: 20px;">
+                    <div
+                        style="display: flex; gap: 10px; width: 100%; max-width: 450px; flex-wrap: wrap; justify-content: center;">
+                        <input type="tel" id="telefono" placeholder="+34 600 000 000" class="form-control"
+                            style="flex: 1; min-width: 200px; padding: 12px 20px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; color: #333;" />
+                        <button onclick="pedirLlamada()" class="btn btn-primary btn-large"
+                            style="white-space: nowrap;">¡Llámame ahora!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="corporate-footer" id="nosotros">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo-white">rueda.<span>cloud</span></a>
+                    <p>En rueda.cloud abordamos la disrupción tecnológica combinando perspectivas innovadoras y solidez
+                        técnica para impactar directamente en la rentabilidad corporativa.</p>
+                </div>
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4>Aceleradores</h4>
+                        <a href="#capacidades">RPA & Agentes Inteligentes</a>
+                        <a href="#capacidades">Agentes de Voz AI</a>
+                        <a href="#capacidades">Analítica & Datos</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Insights</h4>
+                        <a href="#insights">Casos de Éxito</a>
+                        <a href="#insights">Innovación Digital</a>
+                        <a href="#insights">Noticias en Prensa</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <a href="tel:696805024" style="text-transform: none;">📞 696 805 024</a>
+                        <a href="mailto:rueda.cloud.ia@gmail.com" style="text-transform: none;">✉️ rueda.cloud.ia@gmail.com</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="#contacto">Privacidad</a>
+                        <a href="#contacto">Términos Contractuales</a>
+                        <a href="#contacto">Cookies</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 rueda.cloud. Tecnologías que empoderan al talento humano.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

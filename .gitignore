@@ -1,0 +1,7 @@
+# Archivos empaquetados
+*.zip
+*.tar.gz
+
+# Node/Server
+node_modules/
+.env
